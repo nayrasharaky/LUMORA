@@ -45,7 +45,7 @@ Project/
 │
 ├── js/
 │   ├── bootstrap.bundle.min.js
-│   └── script.js
+│   
 │
 └── images/
     └── images used in the website
