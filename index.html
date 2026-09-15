@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>LUMORA | Digital Dream Museum</title>
-<link rel="stylesheet" href="./css/all.min.css">
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -291,9 +290,9 @@
                         landscapes and impossible worlds.
                     </p>
 
-                    <a href="#" class="read-more">
+                    <span class="room-link">
                         Enter Room →
-                    </a>
+                    </span>
 
                 </div>
 
@@ -320,9 +319,9 @@
                         with glowing colors and digital lights.
                     </p>
 
-                    <a href="#" class="read-more">
+                    <span class="room-link">
                         Enter Room →
-                    </a>
+                    </span>
 
                 </div>
 
@@ -349,9 +348,9 @@
                         thoughts, memories and human imagination.
                     </p>
 
-                    <a href="#" class="read-more">
+                    <span class="room-link">
                         Enter Room →
-                    </a>
+                    </span>
 
                 </div>
 
@@ -483,13 +482,10 @@
 
                         <div class="art-overlay">
 
-                            <button
-                                class="btn btn-light view-art"
-                                data-bs-toggle="modal"
-                                data-bs-target="#artModal">
-
+                            <button class="btn btn-outline-light"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#silentUniverseModal">
                                 View Artwork
-
                             </button>
 
                         </div>
@@ -528,14 +524,11 @@
 
                         <div class="art-overlay">
 
-                            <button
-                                class="btn btn-light view-art"
+                        <button class="btn btn-outline-light"
                                 data-bs-toggle="modal"
-                                data-bs-target="#artModal">
-
-                                View Artwork
-
-                            </button>
+                                data-bs-target="#electricDreamsModal">
+                            View Artwork
+                        </button>
 
                         </div>
 
@@ -573,14 +566,11 @@
 
                         <div class="art-overlay">
 
-                            <button
-                                class="btn btn-light view-art"
+                        <button class="btn btn-outline-light"
                                 data-bs-toggle="modal"
-                                data-bs-target="#artModal">
-
-                                View Artwork
-
-                            </button>
+                                data-bs-target="#futureBloomModal">
+                            View Artwork
+                        </button>
 
                         </div>
 
@@ -618,14 +608,11 @@
 
                         <div class="art-overlay">
 
-                            <button
-                                class="btn btn-light view-art"
+                        <button class="btn btn-outline-light"
                                 data-bs-toggle="modal"
-                                data-bs-target="#artModal">
-
-                                View Artwork
-
-                            </button>
+                                data-bs-target="#colorMemoryModal">
+                        View Artwork
+                        </button>
 
                         </div>
 
@@ -663,14 +650,11 @@
 
                         <div class="art-overlay">
 
-                            <button
-                                class="btn btn-light view-art"
+                        <button class="btn btn-outline-light"
                                 data-bs-toggle="modal"
-                                data-bs-target="#artModal">
-
-                                View Artwork
-
-                            </button>
+                                data-bs-target="#parallelWorldModal">
+                        View Artwork
+                        </button>
 
                         </div>
 
@@ -708,14 +692,11 @@
 
                         <div class="art-overlay">
 
-                            <button
-                                class="btn btn-light view-art"
+                        <button class="btn btn-outline-light"
                                 data-bs-toggle="modal"
-                                data-bs-target="#artModal">
-
-                                View Artwork
-
-                            </button>
+                                data-bs-target="#beyondRealityModal">
+                        View Artwork
+                        </button>
 
                         </div>
 
@@ -747,54 +728,191 @@
 
 </section>
 
-<div class="modal fade"
-    id="artModal"
-    tabindex="-1">
-
+<div class="modal fade" id="silentUniverseModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
-
         <div class="modal-content">
 
             <div class="modal-header">
+                <h5 class="modal-title">Silent Universe</h5>
 
-                <h5 class="modal-title">
-                    Silent Universe
-                </h5>
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal">
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
                 </button>
-
             </div>
 
             <div class="modal-body">
-
-                <img
-                    src="images/fluid.jpg"
+                <img src="images/silent.jpg"
                     class="img-fluid"
-                    alt="Artwork">
+                    alt="Silent Universe">
 
-                <h3 class="mt-4">
-                    Silent Universe
-                </h3>
+                <h3 class="mt-4">Silent Universe</h3>
 
                 <p>
                     A digital exploration of color,
                     imagination and endless space.
                 </p>
-
             </div>
 
         </div>
-
     </div>
-
 </div>
-<!-- ===================================
-     INTERACTIVE ROOMS
-=================================== -->
+
+<div class="modal fade" id="electricDreamsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Electric Dreams</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <img src="images/electric.jpg"
+                    class="img-fluid"
+                    alt="Electric Dreams">
+
+                <h3 class="mt-4">Electric Dreams</h3>
+
+                <p>
+                    A futuristic digital artwork
+                    filled with energy and glowing colors.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="futureBloomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Future Bloom</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <img src="images/future.jpg"
+                    class="img-fluid"
+                    alt="Future Bloom">
+
+                <h3 class="mt-4">Future Bloom</h3>
+
+                <p>
+                    A creative vision of nature,
+                    technology and the future.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="colorMemoryModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Color Memory</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <img src="images/colormemory.jpg"
+                    class="img-fluid"
+                    alt="Color Memory">
+
+                <h3 class="mt-4">Color Memory</h3>
+
+                <p>
+                    A modern artwork inspired by
+                    memories, colors and emotions.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="parallelWorldModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Parallel World</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <img src="images/parallel.jpg"
+                    class="img-fluid"
+                    alt="Parallel World">
+
+                <h3 class="mt-4">Parallel World</h3>
+
+                <p>
+                    A digital journey into an
+                    imaginary world beyond reality.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="beyondRealityModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Beyond Reality</h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <img src="images/beyond.jpg"
+                    class="img-fluid"
+                    alt="Beyond Reality">
+
+                <h3 class="mt-4">Beyond Reality</h3>
+
+                <p>
+                    An imaginative artwork exploring
+                    dreams, creativity and digital worlds.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <section class="interactive-rooms section-padding">
 
@@ -807,7 +925,6 @@
 
         <div class="row g-4 mt-4">
 
-            <!-- Room 01 -->
             <div class="col-lg-4 col-md-6">
 
                 <div class="interactive-room room-pink">
@@ -827,16 +944,13 @@
                         dreams and endless possibilities.
                     </p>
 
-                    <a href="#" class="room-link">
+                    <span class="room-link">
                         Enter Room →
-                    </a>
+                    </span>
 
                 </div>
 
             </div>
-
-
-            <!-- Room 02 -->
             <div class="col-lg-4 col-md-6">
 
                 <div class="interactive-room room-purple">
@@ -856,16 +970,14 @@
                         create moods and emotions.
                     </p>
 
-                    <a href="#" class="room-link">
+                    <span class="room-link">
                         Enter Room →
-                    </a>
+                    </span>
 
                 </div>
 
             </div>
 
-
-            <!-- Room 03 -->
             <div class="col-lg-4 col-md-6">
 
                 <div class="interactive-room room-blue">
@@ -885,9 +997,9 @@
                         by technology and the future.
                     </p>
 
-                    <a href="#" class="room-link">
+                    <span class="room-link">
                         Enter Room →
-                    </a>
+                    </span>
 
                 </div>
 
@@ -1002,16 +1114,12 @@ class="artists-section section-padding">
             <h2>What People Say</h2>
         </div>
 
-
-        <!-- Hidden Radio Buttons -->
         <input type="radio" name="reviews" id="review1" checked>
         <input type="radio" name="reviews" id="review2">
         <input type="radio" name="reviews" id="review3">
 
-
         <div class="reviews-slider">
 
-            <!-- Review 1 -->
             <div class="review-box review-one">
 
                 <div class="stars">
@@ -1034,8 +1142,6 @@ class="artists-section section-padding">
 
             </div>
 
-
-            <!-- Review 2 -->
             <div class="review-box review-two">
 
                 <div class="stars">
@@ -1057,8 +1163,6 @@ class="artists-section section-padding">
 
             </div>
 
-
-            <!-- Review 3 -->
             <div class="review-box review-three">
 
                 <div class="stars">
@@ -1080,8 +1184,6 @@ class="artists-section section-padding">
 
             </div>
 
-
-            <!-- Left Arrow -->
             <label for="review1" class="review-prev prev-1">
                 <i class="fas fa-chevron-left"></i>
             </label>
@@ -1094,8 +1196,6 @@ class="artists-section section-padding">
                 <i class="fas fa-chevron-left"></i>
             </label>
 
-
-            <!-- Right Arrow -->
             <label for="review2" class="review-next next-1">
                 <i class="fas fa-chevron-right"></i>
             </label>
