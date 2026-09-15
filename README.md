@@ -1,216 +1,130 @@
 # LUMORA | Digital Dream Museum
 
-LUMORA is a creative digital art museum website designed to provide an interactive and modern experience for exploring digital artworks, exhibitions, artists, and virtual rooms.
+LUMORA is a modern digital art museum website that presents digital artworks, exhibitions, artists, and visitor experiences through an interactive and colorful interface.
 
-The project was created as a frontend web design project using HTML, CSS, Bootstrap, and Font Awesome.
+The project focuses on creating a creative digital-art experience using modern web technologies, animations, responsive design, and interactive Bootstrap components.
 
-## 🌐 Live Demo
+## 🌐 Live Website
 
 https://nayrasharaky.github.io/LUMORA/
 
-## 📂 GitHub Repository
+## 📌 Project Overview
 
-https://github.com/nayrasharaky/LUMORA
+LUMORA is designed as a virtual digital art museum where users can explore different exhibitions, discover artworks and artists, and interact with different sections of the website.
 
-## ✨ Project Features
+The website includes:
 
-- Modern and creative digital art museum design
-- Responsive design for different screen sizes
-- Fixed navigation bar
-- Mobile responsive navigation menu
-- Hero section with call-to-action buttons
-- About section with museum statistics
-- Digital exhibitions section
-- Color moods section
-- Featured artworks gallery
-- Individual artwork details using Bootstrap Modals
-- Interactive Rooms section
-- Visitor Stories carousel
-- Artists section
-- Contact section
-- Hover effects and animations
-- Font Awesome icons
-- Google Fonts
-- Bootstrap responsive components
+* Modern responsive navigation bar
+* Hero section
+* About section
+* Digital exhibitions
+* Featured artworks
+* Artists section
+* Color moods
+* Visitor stories carousel
+* Interactive artwork modal
+* Contact section
+* Smooth animations and hover effects
+* Responsive design for different screen sizes
 
-## 🏠 Home Section
+## ✨ Main Sections
 
-The Home section introduces LUMORA as a digital art museum.
+### 🏠 Home
 
-It includes:
+The landing section introduces visitors to the LUMORA digital art world with:
 
-- Main heading: "ENTER THE DIGITAL ART WORLD"
-- Introduction to LUMORA
-- Explore Exhibitions button
-- Discover Lumora button
+* "Enter the Digital Art World" headline
+* Short introduction
+* Explore Exhibitions button
+* Discover Lumora button
 
-The design focuses on creating a futuristic and artistic first impression.
+### 🎨 About LUMORA
 
-## ℹ️ About LUMORA
+The About section introduces the concept of the digital museum and includes statistics such as:
 
-The About section introduces the idea behind LUMORA and the digital museum experience.
+* 120+ Artworks
+* 35 Artists
+* 18 Rooms
 
-It also includes museum statistics:
+### 🖼️ Digital Exhibitions
 
-- 120+ Artworks
-- 35 Artists
-- 18 Rooms
+LUMORA contains different digital exhibitions:
 
-These statistics help present the scale of the digital museum.
+* Dreamscape
+* Neon Universe
+* Inner Space
 
-## 🖼️ Digital Exhibitions
+### 🌈 Color Moods
 
-LUMORA contains different digital exhibitions designed around different artistic themes.
+The website presents different artistic moods:
 
-The exhibitions include:
+* Purple Dreams
+* Warm Energy
+* Ocean Mind
 
-- Dreamscape
-- Neon Universe
-- Inner Space
+### 🖌️ Artworks
 
-Each exhibition represents a different digital art atmosphere.
+Featured digital artworks include:
 
-## 🎨 Color Moods
+* Silent Universe — Nova Ray
+* Electric Dreams — Leo Moon
+* Future Bloom — Aria Stone
+* Color Memory — Mia Nova
+* Parallel World — Alex Void
+* Beyond Reality — Luna Art
 
-The Color Moods section explores the relationship between digital art, colors, and emotions.
+### 👩‍🎨 Artists
 
-It includes:
+The website presents digital artists and their creative work as part of the museum experience.
 
-- Purple Dreams
-- Warm Energy
-- Ocean Mind
+### 💬 Visitor Stories
 
-The section uses different visual styles to represent each mood.
+A responsive carousel displays different visitor reviews and allows users to move between reviews using navigation arrows.
 
-## 🖌️ Featured Artworks
+### 🔍 Artwork Modal
 
-The Featured Artworks section displays six digital artworks.
+Bootstrap Modal is used to display additional artwork information in an interactive popup.
 
-| Artwork | Artist |
-|---|---|
-| Silent Universe | Nova Ray |
-| Electric Dreams | Leo Moon |
-| Future Bloom | Aria Stone |
-| Color Memory | Mia Nova |
-| Parallel World | Alex Void |
-| Beyond Reality | Luna Art |
+### 📩 Contact
 
-Each artwork includes a View Artwork button.
-
-## 🔍 Artwork Details
-
-Each artwork has its own Bootstrap Modal.
-
-When the user clicks View Artwork, a modal opens without leaving the current page.
-
-Each modal contains:
-
-- Artwork title
-- Artwork image
-- Short description
-- Close button
-
-The project uses six different modal IDs:
-
-- silentUniverseModal
-- electricDreamsModal
-- futureBloomModal
-- colorMemoryModal
-- parallelWorldModal
-- beyondRealityModal
-
-This allows every artwork button to display the correct artwork information.
-
-## 🚪 Interactive Rooms
-
-LUMORA includes an Interactive Rooms section that provides different digital environments.
-
-### Dream Room
-
-A dreamy digital environment inspired by imagination and creativity.
-
-### Color Room
-
-A colorful environment focused on digital colors and artistic expression.
-
-### Future Room
-
-A futuristic environment inspired by technology and digital creativity.
-
-Each room uses Font Awesome icons to represent its theme.
-
-## 💬 Visitor Stories
-
-The Visitor Stories section presents different visitor experiences and opinions about the digital museum.
-
-The section uses a carousel-style component with navigation controls.
-
-Visitors can move between different stories using the previous and next controls.
-
-## 👩‍🎨 Artists
-
-The Artists section introduces the digital artists featured in LUMORA.
-
-Featured artists include:
-
-- Nova Ray
-- Leo Moon
-- Aria Stone
-- Mia Nova
-- Alex Void
-- Luna Art
-
-## 📩 Contact Section
-
-The Contact section provides visitors with a way to interact with the museum and find contact information.
-
-The section follows the same visual style used throughout the website.
+A contact section allows visitors to find ways to connect with the digital museum.
 
 ## 🛠️ Technologies Used
 
-### HTML5
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5
+* Font Awesome
+* Google Fonts
 
-Used to create the structure and content of the website.
+## 🎨 Design Features
 
-### CSS3
+The design focuses on a creative digital-art atmosphere using:
 
-Used for:
+* Bright and modern colors
+* Smooth animations
+* Hover effects
+* Animated elements
+* Responsive layouts
+* Interactive components
+* Modern typography
+* Creative artwork presentation
 
-- Colors
-- Typography
-- Animations
-- Hover effects
-- Spacing
-- Layout customization
-- Visual effects
-- Responsive styling
+## 📱 Responsive Design
 
-### Bootstrap 5
+LUMORA is designed to work across different screen sizes, including:
 
-Used for:
+* Desktop
+* Laptop
+* Tablet
+* Mobile
 
-- Responsive containers
-- Navbar
-- Buttons
-- Cards
-- Grid system
-- Modals
-- Carousel
-- Responsive utilities
+Bootstrap responsive classes and custom CSS are used to make the website adaptable to different devices.
 
-### Font Awesome
+## 📂 Project Structure
 
-Used for icons throughout the website.
-
-### Google Fonts
-
-The project uses:
-
-- Montserrat
-- Playfair Display
-
-## 📁 Project Structure
-
+```text
 LUMORA/
 │
 ├── index.html
@@ -223,149 +137,50 @@ LUMORA/
 ├── js/
 │   └── bootstrap.bundle.min.js
 │
-├── images/
-│   ├── silent.jpg
-│   ├── electric.jpg
-│   ├── future.jpg
-│   ├── colormemory.jpg
-│   ├── parallel.jpg
-│   └── beyond.jpg
-│
 └── README.md
+```
 
-## 📱 Responsive Design
+## ⚙️ Features
 
-LUMORA is designed to work across different screen sizes.
-
-The website supports:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile devices
-
-Bootstrap responsive classes are used to make the layout adapt to different screen sizes.
-
-The navigation bar also includes a responsive mobile menu.
-
-## ⚡ Bootstrap Components
-
-Several Bootstrap components are used throughout the project.
-
-### Navbar
-
-The navigation bar contains links to the main sections of the website.
-
-On smaller screens, the navigation links are displayed through a responsive hamburger menu.
-
-### Modals
-
-Six Bootstrap Modals are used for displaying detailed information about the featured artworks.
-
-### Carousel
-
-The Visitor Stories section uses a carousel-style component to display multiple visitor stories.
-
-### Cards
-
-Cards are used in several sections including:
-
-- Exhibitions
-- Artworks
-- Interactive Rooms
-- Artists
-
-## 📜 JavaScript
-
-No custom JavaScript was written for the website.
-
-However, the Bootstrap JavaScript bundle is included because some Bootstrap components require JavaScript to work.
-
-The project uses Bootstrap JavaScript for:
-
-- Mobile Navbar
-- Artwork Modals
-- Carousel
-
-The Bootstrap JavaScript file is loaded locally:
-
-<script src="./js/bootstrap.bundle.min.js"></script>
-
-## 🎯 Project Goal
-
-The goal of LUMORA is to create a creative digital museum experience rather than a traditional website.
-
-The project combines:
-
-- Digital art
-- Modern UI design
-- Responsive web design
-- Interactive Bootstrap components
-- Creative animations
-- Hover effects
-- Digital exhibitions
-- Virtual-style rooms
+* Responsive Bootstrap Navbar
+* Mobile Hamburger Menu
+* Bootstrap Modal
+* Visitor Stories Carousel
+* Hover Effects
+* CSS Animations
+* Font Awesome Icons
+* Responsive Sections
+* Interactive Buttons
+* Digital Art Exhibition Layout
 
 ## 🚀 How to Run the Project
 
-1. Clone the repository:
+1. Download or clone the repository.
 
-git clone https://github.com/nayrasharaky/LUMORA.git
+2. Open the project folder in Visual Studio Code.
 
-2. Open the LUMORA folder in Visual Studio Code.
+3. Make sure the folder structure is preserved.
 
-3. Make sure the following folders exist:
+4. Open `index.html` using Live Server or open it directly in a browser.
 
-css/
-js/
-images/
-
-4. Open index.html using Live Server or open the file directly in a browser.
-
-## 🌍 GitHub Pages
+## 🌐 Deployment
 
 The project is deployed using GitHub Pages.
 
-Live Website:
+Repository:
+
+https://github.com/nayrasharaky/LUMORA
+
+Live website:
 
 https://nayrasharaky.github.io/LUMORA/
 
-The website can be accessed directly from the browser without installing the project locally.
-
-## 📌 Important Notes
-
-The project uses local Bootstrap files instead of depending completely on an external Bootstrap CDN.
-
-The Bootstrap files are located inside the project:
-
-css/bootstrap.min.css
-js/bootstrap.bundle.min.js
-
-Font Awesome is also included for the website icons.
-
-The website does not use a backend or database.
-
-It is a frontend project created for learning, practice, and portfolio purposes.
-
-## 💡 Future Improvements
-
-Possible future improvements for LUMORA include:
-
-- Adding more digital artworks
-- Adding more exhibitions
-- Creating individual artist pages
-- Adding a search feature
-- Adding artwork filtering
-- Adding a favorites system
-- Adding more interactive rooms
-- Connecting the website to a backend
-- Adding a database for artworks and artists
-
 ## 👩‍💻 Author
 
-Nayra Sharaky
+**Nayra Sharaky**
 
-Frontend Web Designer / Developer
+GitHub:
+https://github.com/nayrasharaky
 
 ## 📄 License
 
